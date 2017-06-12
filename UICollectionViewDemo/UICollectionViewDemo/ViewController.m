@@ -9,8 +9,9 @@
 #import "ViewController.h"
 #import "MyCollectionViewCell.h"
 #import "headerView.h"
+#import "WaterFlowLayout.h"
 
-@interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+@interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, WaterFlowLayoutDelegate>
 
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) UICollectionViewFlowLayout *flowLayout;
@@ -28,9 +29,10 @@
 
 - (void)loadFlowLayout {
     _flowLayout = [[UICollectionViewFlowLayout alloc] init];
-//    _flowLayout.headerReferenceSize = CGSizeMake(self.view.frame.size.width, 100);
-//    _flowLayout.itemSize = CGSizeMake(120, 120);
-    [_flowLayout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
+    _flowLayout.minimumLineSpacing = 10;        // 决定了每行的间隔
+    _flowLayout.minimumInteritemSpacing = 50;   // 决定了Item之间的间隔
+    _flowLayout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
+    [_flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
 }
 
 - (void)loadCollectionView {

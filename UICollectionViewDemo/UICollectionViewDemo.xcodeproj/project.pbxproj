@@ -15,11 +15,13 @@
 		F208740A1EEB939400C6BEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20874081EEB939400C6BEF6 /* LaunchScreen.storyboard */; };
 		F20874151EEB939400C6BEF6 /* UICollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F20874141EEB939400C6BEF6 /* UICollectionViewDemoTests.m */; };
 		F20874201EEB939400C6BEF6 /* UICollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F208741F1EEB939400C6BEF6 /* UICollectionViewDemoUITests.m */; };
-		F208742F1EEB983000C6BEF6 /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F208742E1EEB983000C6BEF6 /* UIColor+RandomColor.m */; };
 		F20874361EEB99A800C6BEF6 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F20874341EEB99A800C6BEF6 /* MyCollectionViewCell.m */; };
 		F20874371EEB99A800C6BEF6 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F20874351EEB99A800C6BEF6 /* MyCollectionViewCell.xib */; };
 		F208743E1EEBC49700C6BEF6 /* headerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F208743C1EEBC49600C6BEF6 /* headerView.m */; };
 		F208743F1EEBC49700C6BEF6 /* headerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F208743D1EEBC49600C6BEF6 /* headerView.xib */; };
+		F242D5551EEE6E1300357019 /* YKTMCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F242D5541EEE6E1300357019 /* YKTMCollectionViewFlowLayout.m */; };
+		F242D5581EEE6E4400357019 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F242D5571EEE6E4400357019 /* WaterFlowLayout.m */; };
+		F242D55E1EEE6E8D00357019 /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F242D55D1EEE6E8D00357019 /* UIColor+RandomColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +58,18 @@
 		F208741B1EEB939400C6BEF6 /* UICollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F208741F1EEB939400C6BEF6 /* UICollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewDemoUITests.m; sourceTree = "<group>"; };
 		F20874211EEB939400C6BEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F208742D1EEB983000C6BEF6 /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
-		F208742E1EEB983000C6BEF6 /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
 		F20874331EEB99A800C6BEF6 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
 		F20874341EEB99A800C6BEF6 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
 		F20874351EEB99A800C6BEF6 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
-		F208743B1EEBC49600C6BEF6 /* headerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = headerView.h; path = ../headerView.h; sourceTree = "<group>"; };
-		F208743C1EEBC49600C6BEF6 /* headerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = headerView.m; path = ../headerView.m; sourceTree = "<group>"; };
-		F208743D1EEBC49600C6BEF6 /* headerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = headerView.xib; path = ../headerView.xib; sourceTree = "<group>"; };
+		F208743B1EEBC49600C6BEF6 /* headerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = headerView.h; path = ../../headerView.h; sourceTree = "<group>"; };
+		F208743C1EEBC49600C6BEF6 /* headerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = headerView.m; path = ../../headerView.m; sourceTree = "<group>"; };
+		F208743D1EEBC49600C6BEF6 /* headerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = headerView.xib; path = ../../headerView.xib; sourceTree = "<group>"; };
+		F242D5531EEE6E1300357019 /* YKTMCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTMCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		F242D5541EEE6E1300357019 /* YKTMCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTMCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		F242D5561EEE6E4400357019 /* WaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		F242D5571EEE6E4400357019 /* WaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
+		F242D55C1EEE6E8D00357019 /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		F242D55D1EEE6E8D00357019 /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,14 +124,10 @@
 				F20873FE1EEB939400C6BEF6 /* AppDelegate.m */,
 				F20874001EEB939400C6BEF6 /* ViewController.h */,
 				F20874011EEB939400C6BEF6 /* ViewController.m */,
-				F20874331EEB99A800C6BEF6 /* MyCollectionViewCell.h */,
-				F20874341EEB99A800C6BEF6 /* MyCollectionViewCell.m */,
-				F20874351EEB99A800C6BEF6 /* MyCollectionViewCell.xib */,
-				F208743B1EEBC49600C6BEF6 /* headerView.h */,
-				F208743C1EEBC49600C6BEF6 /* headerView.m */,
-				F208743D1EEBC49600C6BEF6 /* headerView.xib */,
-				F208742D1EEB983000C6BEF6 /* UIColor+RandomColor.h */,
-				F208742E1EEB983000C6BEF6 /* UIColor+RandomColor.m */,
+				F242D5521EEE6D8400357019 /* Flowlayout */,
+				F242D5511EEE692900357019 /* Utils */,
+				F242D54D1EEE657600357019 /* Cell */,
+				F242D54B1EEE652600357019 /* Header */,
 				F20874031EEB939400C6BEF6 /* Main.storyboard */,
 				F20874061EEB939400C6BEF6 /* Assets.xcassets */,
 				F20874081EEB939400C6BEF6 /* LaunchScreen.storyboard */,
@@ -159,6 +161,48 @@
 				F20874211EEB939400C6BEF6 /* Info.plist */,
 			);
 			path = UICollectionViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		F242D54B1EEE652600357019 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F208743B1EEBC49600C6BEF6 /* headerView.h */,
+				F208743C1EEBC49600C6BEF6 /* headerView.m */,
+				F208743D1EEBC49600C6BEF6 /* headerView.xib */,
+			);
+			name = Header;
+			path = header;
+			sourceTree = "<group>";
+		};
+		F242D54D1EEE657600357019 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F20874331EEB99A800C6BEF6 /* MyCollectionViewCell.h */,
+				F20874341EEB99A800C6BEF6 /* MyCollectionViewCell.m */,
+				F20874351EEB99A800C6BEF6 /* MyCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F242D5511EEE692900357019 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F242D55C1EEE6E8D00357019 /* UIColor+RandomColor.h */,
+				F242D55D1EEE6E8D00357019 /* UIColor+RandomColor.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F242D5521EEE6D8400357019 /* Flowlayout */ = {
+			isa = PBXGroup;
+			children = (
+				F242D5561EEE6E4400357019 /* WaterFlowLayout.h */,
+				F242D5571EEE6E4400357019 /* WaterFlowLayout.m */,
+				F242D5531EEE6E1300357019 /* YKTMCollectionViewFlowLayout.h */,
+				F242D5541EEE6E1300357019 /* YKTMCollectionViewFlowLayout.m */,
+			);
+			name = Flowlayout;
+			path = FlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,10 +343,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F208742F1EEB983000C6BEF6 /* UIColor+RandomColor.m in Sources */,
+				F242D55E1EEE6E8D00357019 /* UIColor+RandomColor.m in Sources */,
 				F20874021EEB939400C6BEF6 /* ViewController.m in Sources */,
+				F242D5581EEE6E4400357019 /* WaterFlowLayout.m in Sources */,
 				F20873FF1EEB939400C6BEF6 /* AppDelegate.m in Sources */,
 				F20873FC1EEB939400C6BEF6 /* main.m in Sources */,
+				F242D5551EEE6E1300357019 /* YKTMCollectionViewFlowLayout.m in Sources */,
 				F20874361EEB99A800C6BEF6 /* MyCollectionViewCell.m in Sources */,
 				F208743E1EEBC49700C6BEF6 /* headerView.m in Sources */,
 			);
